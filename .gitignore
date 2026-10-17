@@ -1,0 +1,58 @@
+# ============================================================
+# .gitignore — TJCE VEMA SOIN
+# ============================================================
+
+# ---------------------
+# Bancos SQLite (nunca versionar arquivos .db com dados reais)
+# ---------------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ---------------------
+# macOS
+# ---------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---------------------
+# Python (caso o projeto Python esteja no mesmo repositório)
+# ---------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+.env
+*.env
+
+# ---------------------
+# Editores e IDEs
+# ---------------------
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---------------------
+# Logs e temporários
+# ---------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*~
